@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <script src="https://cdn.openfin.co/services/openfin/notifications/1.19.3/openfin-notifications.js"></script>
+<script>
+  async  function setContext() {
+        //await notifications.getAll()
+        const notification = {
+              "body": "Halcyon Demo",
+              "toast": "transient",
+              "customData": {},
+              "priority": 1,
+              "category": "default",
+              "title": "Halcyon Demo",
+              "template": "markdown",
+              "id": "a8918aa0-ef7f-4e9c-be41-560151fbbec7"
+            }
+            notifications.create(notification);
+        if (window.fdc3 !== undefined) {
+            const context = {
+                "type": "fdc3.instrument",
+                "name": "Tesla Inc",
+                "id": {
+                    "ticker": "TSLA",
+                    "ISIN": "US88160R1014"
+                }
+            };
+            fdc3.broadcast(context);
+           
+        }
+    }
+    function raiseIntent(){
+
+    }
+</script>
+
+<body>
+
+    <h1>My app</h1>
+    <textarea id="setContext" style="width:600px;height:300px"></textarea>
+    <br>
+    <input type="button" value="Set Context" onClick="setContext()">
+    <input type="button" value="Raise Intent" onClick="raiseIntent()">
+</body>
+
+</html>
