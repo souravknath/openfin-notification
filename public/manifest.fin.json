@@ -62,7 +62,7 @@
 		"name": "Halcyon Hub",
 		"target": ["desktop", "start-menu"]
 	},
-	"appAssets": [
+	"_appAssets": [
 		{
 			"alias": "winform-interop-example",
 			"version": "3.0.1",
