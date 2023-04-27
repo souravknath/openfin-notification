@@ -12,9 +12,9 @@
 	"platform": {
 		"name": "workspace-starter-how-to-customize-workspace",
 		"uuid": "customize-workspace",
-		"icon": "http://localhost:8080/favicon.ico",
+		"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 		"autoShow": false,
-		"providerUrl": "http://localhost:8080/platform/provider.html",
+		"providerUrl": "https://souravknath.github.io/openfin-notification/public/platform/provider.html",
 		"preventQuitOnLastWindowClosed": true,
 		"permissions": {
 			"System": {
@@ -58,7 +58,7 @@
 	"shortcut": {
 		"company": "OpenFin",
 		"description": "A way of showing examples of what OpenFin can do.",
-		"icon": "http://localhost:8080/favicon.ico",
+		"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 		"name": "Halcyon Hub",
 		"target": ["desktop", "start-menu"]
 	},
@@ -66,7 +66,7 @@
 		{
 			"alias": "winform-interop-example",
 			"version": "3.0.1",
-			"src": "http://localhost:8080/common/assets/native-interop-example.zip",
+			"src": "https://souravknath.github.io/openfin-notification/public/common/assets/native-interop-example.zip",
 			"target": "OpenFin.Interop.Win.Sample.exe",
 			"forceDownload": false
 		}
@@ -86,10 +86,10 @@
 			"autoShow": ["dock", "home"]
 		},
 		"platformProvider": {
-			"rootUrl": "http://localhost:8080",
+			"rootUrl": "https://souravknath.github.io/openfin-notification/public",
 			"sharing": true,
 			"intentPicker": {
-				"url": "http://localhost:8080/common/windows/intents/picker.html",
+				"url": "https://souravknath.github.io/openfin-notification/public/common/windows/intents/picker.html",
 				"height": 400,
 				"width": 400
 			}
@@ -117,7 +117,7 @@
 				{
 					"enabled": true,
 					"id": "local-storage",
-					"url": "http://localhost:8080/js/modules/endpoints/local-storage.bundle.js"
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/endpoints/local-storage.bundle.js"
 				}
 			],
 			"endpoints": [
@@ -126,7 +126,7 @@
 					"type": "fetch",
 					"options": {
 						"method": "GET",
-						"url": "http://localhost:8080/apps.json"
+						"url": "https://souravknath.github.io/openfin-notification/public/apps.json"
 					}
 				},
 				{
@@ -134,7 +134,7 @@
 					"type": "fetch",
 					"options": {
 						"method": "GET",
-						"url": "http://localhost:8080/common/apps.json"
+						"url": "https://souravknath.github.io/openfin-notification/public/common/apps.json"
 					}
 				},
 				{
@@ -176,9 +176,9 @@
 		"browserProvider": {
 			"windowOptions": {
 				"title": "Browser Starter",
-				"icon": "http://localhost:8080/favicon.ico",
-				"newTabUrl": "http://localhost:8080/common/views/platform/new-tab/new-tab.html",
-				"newPageUrl": "http://localhost:8080/common/views/platform/new-tab/new-tab.html"
+				"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
+				"newTabUrl": "https://souravknath.github.io/openfin-notification/public/common/views/platform/new-tab/new-tab.html",
+				"newPageUrl": "https://souravknath.github.io/openfin-notification/public/common/views/platform/new-tab/new-tab.html"
 			},
 			"globalMenu": [
 				{
@@ -342,7 +342,7 @@
 						"type": "Custom",
 						"tooltip": "Change Opacity",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/favicon.ico",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 						"action": {
 							"id": "change-opacity",
 							"customData": {
@@ -359,7 +359,7 @@
 						"type": "Custom",
 						"tooltip": "Restore Opacity",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/favicon.ico",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 						"action": {
 							"id": "restore-opacity",
 							"customData": {
@@ -376,7 +376,7 @@
 						"type": "Custom",
 						"tooltip": "Toggle Scheme",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/theme.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/theme.svg",
 						"action": {
 							"id": "toggle-scheme",
 							"customData": {}
@@ -391,7 +391,7 @@
 						"type": "Custom",
 						"tooltip": "Show Home",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/search.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/search.svg",
 						"action": {
 							"id": "home-show",
 							"customData": {}
@@ -405,7 +405,7 @@
 						"type": "Custom",
 						"tooltip": "Toggle Notification Center",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/bell.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/bell.svg",
 						"action": {
 							"id": "notification-toggle",
 							"customData": {}
@@ -419,7 +419,7 @@
 						"type": "Custom",
 						"tooltip": "Pin this window",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/pin.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/pin.svg",
 						"action": {
 							"id": "pin-window",
 							"customData": {
@@ -436,7 +436,7 @@
 						"type": "Custom",
 						"tooltip": "Unpin this window",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/pin-vertical.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/pin-vertical.svg",
 						"action": {
 							"id": "unpin-window",
 							"customData": {
@@ -481,7 +481,7 @@
 						"type": "Custom",
 						"tooltip": "Share",
 						"disabled": false,
-						"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/share.svg",
+						"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/share.svg",
 						"action": {
 							"id": "share",
 							"customData": {}
@@ -503,7 +503,7 @@
 				{
 					"id": "default",
 					"label": "Default",
-					"logoUrl": "http://localhost:8080/favicon.ico",
+					"logoUrl": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"default": "dark",
 					"palettes": {
 						"light": {
@@ -569,14 +569,14 @@
 		"homeProvider": {
 			"id": "customize-workspace",
 			"title": "Home Starter",
-			"icon": "http://localhost:8080/favicon.ico",
+			"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 			"queryMinLength": 3,
 			"queryAgainst": ["title"]
 		},
 		"storefrontProvider": {
 			"id": "customize-workspace",
 			"title": "Custom Storefront",
-			"icon": "http://localhost:8080/favicon.ico",
+			"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 			"landingPage": {
 				"hero": {
 					"title": "Custom Hero Title",
@@ -586,7 +586,7 @@
 						"tags": ["hero"]
 					},
 					"image": {
-						"src": "http://localhost:8080/common/images/superhero-unsplash.jpg"
+						"src": "https://souravknath.github.io/openfin-notification/public/common/images/superhero-unsplash.jpg"
 					}
 				},
 				"topRow": {
@@ -596,7 +596,7 @@
 							"title": "Expero",
 							"description": "A collection of example views from Expero showing the power of interop and context sharing.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-1-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-1-unsplash.jpg"
 							},
 							"tags": ["expero"],
 							"buttonTitle": "View"
@@ -605,7 +605,7 @@
 							"title": "Dev Tools",
 							"description": "A collection of developer tools that can aid with building and debugging OpenFin applications.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-2-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-2-unsplash.jpg"
 							},
 							"tags": ["tools"],
 							"buttonTitle": "View"
@@ -614,7 +614,7 @@
 							"title": "Learning Resource",
 							"description": "A collection of developer documents that can aid with building and debugging OpenFin applications.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-3-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-3-unsplash.jpg"
 							},
 							"tags": ["page"],
 							"buttonTitle": "View"
@@ -632,7 +632,7 @@
 							"title": "Views",
 							"description": "A collection of views made available through our catalog.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-4-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-4-unsplash.jpg"
 							},
 							"tags": ["view"],
 							"buttonTitle": "View"
@@ -641,7 +641,7 @@
 							"title": "Web Apps",
 							"description": "A collection of web apps built using OpenFin.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-5-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-5-unsplash.jpg"
 							},
 							"tags": ["manifest"],
 							"buttonTitle": "View"
@@ -650,7 +650,7 @@
 							"title": "Native Apps",
 							"description": "A collection of native apps made available through our catalog.",
 							"image": {
-								"src": "http://localhost:8080/common/images/coding-6-unsplash.jpg"
+								"src": "https://souravknath.github.io/openfin-notification/public/common/images/coding-6-unsplash.jpg"
 							},
 							"tags": ["native"],
 							"buttonTitle": "View"
@@ -700,7 +700,7 @@
 			],
 			"footer": {
 				"logo": {
-					"src": "http://localhost:8080/favicon.ico",
+					"src": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"size": "32"
 				},
 				"text": "Welcome to the OpenFin Sample Footer",
@@ -719,7 +719,7 @@
 		"dockProvider": {
 			"id": "customize-workspace",
 			"title": "Home Starter",
-			"icon": "http://localhost:8080/favicon.ico",
+			"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 			"workspaceComponents": {
 				"hideHomeButton": false,
 				"hideWorkspacesButton": false,
@@ -739,7 +739,7 @@
 				{
 					"display": "group",
 					"tooltip": "Manager",
-					"iconUrl": "http://localhost:8080/common/images/icon-gradient.png",
+					"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/images/icon-gradient.png",
 					"tags": ["manager"]
 				}
 			],
@@ -756,7 +756,7 @@
 				},
 				{
 					"tooltip": "Social",
-					"iconUrl": "http://localhost:8080/common/icons/{theme}/{scheme}/share.svg",
+					"iconUrl": "https://souravknath.github.io/openfin-notification/public/common/icons/{theme}/{scheme}/share.svg",
 					"options": [
 						{
 							"tooltip": "Twitter",
@@ -783,37 +783,37 @@
 		"notificationProvider": {
 			"id": "customize-workspace",
 			"title": "Notification Starter",
-			"icon": "http://localhost:8080/favicon.ico"
+			"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico"
 		},
 		"integrationProvider": {
-			"icon": "http://localhost:8080/favicon.ico",
+			"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 			"isManagementEnabled": false,
 			"command": "integrations",
 			"commandDescription": "Allows the management of integrations for this platform. You can decide whether enabled integrations should be included when a query is entered.",
 			"modules": [
 				{
 					"id": "workspaces",
-					"icon": "http://localhost:8080/favicon.ico",
+					"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"title": "Workspaces",
 					"description": "Manage workspaces",
 					"enabled": true,
-					"url": "http://localhost:8080/js/modules/integrations/workspaces.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/integrations/workspaces.bundle.js",
 					"data": {
 						"images": {
-							"workspace": "http://localhost:8080/icons/{scheme}/workspace.svg"
+							"workspace": "https://souravknath.github.io/openfin-notification/public/icons/{scheme}/workspace.svg"
 						}
 					}
 				},
 				{
 					"id": "pages",
-					"icon": "http://localhost:8080/favicon.ico",
+					"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"title": "Pages",
 					"description": "Manage Pages",
 					"enabled": true,
-					"url": "http://localhost:8080/js/modules/integrations/pages.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/integrations/pages.bundle.js",
 					"data": {
 						"images": {
-							"page": "http://localhost:8080/icons/{scheme}/page.svg"
+							"page": "https://souravknath.github.io/openfin-notification/public/icons/{scheme}/page.svg"
 						}
 					}
 				},
@@ -838,7 +838,7 @@
 				},
 				{
 					"id": "emoji",
-					"icon": "http://localhost:8080/favicon.ico",
+					"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"title": "Emoji Provider",
 					"description": "Search for emojis by name",
 					"enabled": false,
@@ -848,12 +848,12 @@
 				},
 				{
 					"id": "about",
-					"icon": "http://localhost:8080/favicon.ico",
+					"icon": "https://souravknath.github.io/openfin-notification/public/favicon.ico",
 					"title": "About",
 					"description": "Provides information about this platform.",
 					"enabled": true,
 					"excludeFromSourceFilter": true,
-					"url": "http://localhost:8080/js/modules/composite/about.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/composite/about.bundle.js",
 					"data": {}
 				}
 			]
@@ -863,7 +863,7 @@
 				{
 					"enabled": true,
 					"id": "interop",
-					"url": "http://localhost:8080/js/modules/init-options/interop.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/init-options/interop.bundle.js",
 					"data": {
 						"supportedActions": ["raise-intent", "share-context"]
 					}
@@ -875,7 +875,7 @@
 				{
 					"enabled": true,
 					"id": "console",
-					"url": "http://localhost:8080/js/modules/log/console.bundle.js"
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/log/console.bundle.js"
 				}
 			]
 		},
@@ -884,21 +884,21 @@
 				{
 					"enabled": true,
 					"id": "opacity",
-					"url": "http://localhost:8080/js/modules/actions/opacity.bundle.js"
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/actions/opacity.bundle.js"
 				},
 				{
 					"enabled": true,
 					"id": "developer-actions",
-					"url": "http://localhost:8080/js/modules/composite/developer.bundle.js"
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/composite/developer.bundle.js"
 				},
 				{
 					"enabled": true,
 					"id": "about-actions",
-					"url": "http://localhost:8080/js/modules/composite/about.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/composite/about.bundle.js",
 					"data": {
 						"windowOptions": {
 							"name": "about",
-							"url": "http://localhost:8080/common/windows/version/about.html",
+							"url": "https://souravknath.github.io/openfin-notification/public/common/windows/version/about.html",
 							"defaultCentered": true,
 							"showTaskbarIcon": false,
 							"autoShow": true,
@@ -917,7 +917,7 @@
 				{
 					"enabled": true,
 					"id": "about-conditions",
-					"url": "http://localhost:8080/js/modules/composite/about.bundle.js"
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/composite/about.bundle.js"
 				}
 			]
 		},
@@ -956,7 +956,7 @@
 				{
 					"enabled": true,
 					"id": "analytics.console",
-					"url": "http://localhost:8080/js/modules/analytics/console.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/analytics/console.bundle.js",
 					"data": {
 						"eventLogLevel": "info"
 					}
@@ -964,7 +964,7 @@
 				{
 					"enabled": true,
 					"id": "analytics.dev.channel",
-					"url": "http://localhost:8080/js/modules/composite/developer.bundle.js",
+					"url": "https://souravknath.github.io/openfin-notification/public/js/modules/composite/developer.bundle.js",
 					"data": {}
 				}
 			]
@@ -976,7 +976,7 @@
 			},
 			"versionWindow": {
 				"name": "versioning",
-				"url": "http://localhost:8080/windows/version/version.html",
+				"url": "https://souravknath.github.io/openfin-notification/public/windows/version/version.html",
 				"defaultCentered": true,
 				"showTaskbarIcon": false,
 				"autoShow": true,
